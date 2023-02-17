@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Sans", sans-serif;
+}
+.header{
+    background-color: #229928;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1.2;
+}
+.container{
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.container img{
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 70px;
+}
+.main-menu{
+    display: flex;
+    position: relative;
+    margin-left: 10px; 
+}
+.main-menu li{
+    list-style: none;
+    padding: 30px 20px;
+}
+.main-menu li:hover{
+    background-color: #26812b;
+} 
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #229928;
+    margin-top: 36px;
+    border: 1px solid rgba(255,255,255,.2);
+    display: none;
+    left: 130px;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu li{
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.main-menu ul.sub-menu li:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #26812b;
+}
+.main-menu ul.sub-menu li a{
+    font-size: 15px;
+}
+.dieuhuong{
+    position: absolute;
+    bottom: 430px;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.dieuhuong i:last-child{
+    margin-left: 1430px;
+}
+marquee{
+    font-weight: bold;
+    color: #26812b;
+}
+.slide{
+    margin-top: 84.63px;
+}
+.slide img{
+    width: 100%;
+}
+.between h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #229928;
+}
+.between p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.content{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-left: 200px;
+    margin-bottom: 500px;
+}
+.icon{
+    float: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.icon i{
+    font-size: 40px;
+    color:#229928;
+    padding-right: 10px;
+}
+.icon i:hover{
+    color: #1f5f22;
+}
+.icon .phantram:hover{
+    color: #1f5f22;
+}
+.icon .phantram{
+    font-size: 50px;
+    font-weight: bold;
+    color: #229928;
+}
+.icon .noidung{
+    font-size: 15px;
+    width: 280px;
+    line-height: 30px;
+    font-family: 'Open Sans';
+    padding-top: 20PX;
+    text-align: justify;
+}
+article{
+    clear: both;
+    min-height: 600px;
+    width: 100%;
+    background-color: #f4f4f4;
+    z-index: 1.1;
+}
+h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.tintuc{
+    display: flex;
+    margin: 50px 80px;
+    position: relative;
+
+}
+.tintuc-left{
+    display: flex;
+}
+.thongtin{
+    padding-right: 30px;
+}
+.thongtin .noidung a{
+    text-decoration: none;
+    color: #121212;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+.thongtin img{
+    width: 440px;
+    display: block;
+}
+.thongtin .noidung{
+    width: 400px;
+    padding-top: 20px;
+    background-color: #f4f4f4;
+    background: rgba(56,142,60,.15);
+    padding: 30px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.thongtin-right{
+    display: flex;
+    padding-bottom: 25px;
+}
+.thongtin-right img{
+    width: 130px;
+}
+.thongtin-right .noidung{
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 300px;
+    background: rgba(56,142,60,.15);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.thongtin-right .noidung a{
+    text-decoration: none;
+    color: #121212;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+.form{
+    background-image: url(../image/slide6trangchu.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    padding: 50px 250px;
+}
+.form-1 h1{
+    width: 400px;
+    font-size: 30px; 
+    color: white;
+    margin-top: 100px;
+    padding-right: 100px;
+    line-height: 50px;
+}
+.form-2{
+    background: rgba(56,142,60,.8);
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 750px;
+}
+.form-2 h2{
+    padding-bottom: 50px;
+    color: white;
+}
+.form-2 input{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+    padding: 0px 0px;
+}
+.block1, .block2, .block3, .block4,.block5, .block6{
+    padding-bottom: 50px;
+}
+.block1 input{
+    width: 500px;
+    height: 40px;
+}
+.block2 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block3 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block4 label{
+    color: white;
+}
+.block5 textarea{
+    border-radius: 7px;
+    width: 500px;
+    height: 100px;
+}
+.block6 input{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: #229928;
+}
+.footer-all{
+    margin: 20px 100px;
+    display: flex;
+    padding: 70px 0px;
+}
+.footer-left .text-left{
+    width: 450px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family:'Open Sans';
+}
+.right{
+    padding-bottom: 20px;
+}
+.right .tieude{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.right .tieude i{
+    color: #359c3a;
+    padding-right: 10px;
+}
+

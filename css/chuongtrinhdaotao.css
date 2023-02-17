@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Sans", sans-serif;
+}
+.header{
+    background-color: #229928;
+    
+}
+.container{
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.container img{
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 70px;
+}
+.main-menu{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.main-menu li{
+    list-style: none;
+    padding: 30px 20px;
+}
+.main-menu li:hover{
+    text-decoration: underline 5px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #229928;
+    margin-top: 35px;
+    border: 1px solid rgba(255,255,255,.2);
+    display: none;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu li{
+    padding: 25px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.main-menu ul.sub-menu li:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #26812b;
+}
+.main-menu ul.sub-menu li a{
+    font-size: 15px;
+}
+.slide{
+    background-image: url(../image/chuongtrinhdaotao1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.slide h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 250px 0px;
+    font-size: 70px;
+}
+article{
+    margin-bottom: 100px;
+}
+article .content{
+    margin: 50px 50px;
+}
+article .content a{
+    text-decoration: none;
+    color: #121212;
+}
+.content-1{
+    margin-top: 50px;
+}
+.content-1{
+    display: flex;
+}
+.picture img{
+    width: 700px;
+    height: 450px;
+}
+.picture img:hover{
+    transition: all 1s ease;
+    transform:scale(1.1);
+}
+.content-small{
+    background-color:rgba(56, 142, 60, 0.2);
+    height: 450px;
+}
+.content-small .tieude{
+    font-size: 24px;
+    padding: 100px 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.noidung{
+    width: 500px;
+    font-size: 20px;
+    padding: 100px 100px;
+    padding-top: 0px;
+    line-height: 25px;
+}
+.form{
+    background-image: url(../image/slide6trangchu.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    padding: 50px 250px;
+}
+.form-1 h1{
+    width: 400px;
+    font-size: 30px; 
+    color: white;
+    margin-top: 100px;
+    padding-right: 100px;
+    line-height: 50px;
+}
+.form-2{
+    background: rgba(56,142,60,.8);
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 750px;
+}
+.form-2 h2{
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px
+}
+.form-2 input{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+.block1, .block2, .block3, .block4,.block5, .block6{
+    padding-bottom: 50px;
+}
+.block1 input{
+    width: 500px;
+    height: 40px;
+}
+.block2 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block3 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block4 label{
+    color: white;
+}
+.block5 textarea{
+    border-radius: 7px;
+    width: 500px;
+    height: 100px;
+}
+.block6 input{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: #229928;
+}
+.footer-all{
+    margin: 20px 100px;
+    display: flex;
+    padding: 70px 0px;
+}
+.footer-left .text-left{
+    width: 450px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family:'Open Sans';
+}
+.right{
+    padding-bottom: 20px;
+}
+.right .tieude{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.right .tieude i{
+    color: #359c3a;
+    padding-right: 10px;
+}
+

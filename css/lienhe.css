@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Sans", sans-serif;
+}
+.header{
+    background-color: #229928;
+}
+.container{
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.container img{
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 70px;
+}
+.main-menu{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.main-menu li{
+    list-style: none;
+    padding: 30px 20px;
+}
+.main-menu li:hover{
+    text-decoration: underline 5px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #229928;
+    margin-top: 35px;
+    border: 1px solid rgba(255,255,255,.2);
+    display: none;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu li{
+    padding: 25px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.main-menu ul.sub-menu li:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #26812b;
+}
+.main-menu ul.sub-menu li a{
+    font-size: 15px;
+}
+article{
+    margin-top: 100px;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.content strong{
+    font-size: 18px;
+}
+.content a{
+    text-decoration: none;
+}
+form input{
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+}
+form .hoten{
+    width: 500px;
+    height: 30px;
+}
+form .namsinh{
+    width: 300px;
+    height: 30px;
+}
+form .tinh{
+    width: 300px;
+    height: 30px;
+}
+form .sdt{
+    width: 500px;
+    height: 30px;
+}
+form .email{
+    width: 300px;
+    height: 30px;
+}
+form .fb{
+    width: 500px;
+    height: 30px;
+}
+form .cb{
+    box-shadow: 0px 0px 0px;
+}
+form label{
+    font-weight: bold;
+}
+form textarea{
+    width: 1000px;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 3px;
+}
+form .submit{
+    padding: 10px 20px;
+    color: white;
+    font-weight: normal;
+    background-color: #428bca;
+    border-radius: 3px;
+}
+.between h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #229928;
+}
+.between p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.content-1{
+    max-width: 70%;
+    margin: 0px 200px;
+    padding-left: 200px;
+}
+.icon{
+    float: left;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.icon i{
+    font-size: 30px;
+    color:#229928;
+    padding-right: 5px;
+}
+.icon i:hover{
+    color: #1f5f22;
+}
+.icon .phantram:hover{
+    color: #1f5f22;
+}
+.icon .phantram{
+    font-size: 30px;
+    font-weight: bold;
+    color: #229928;
+}
+.icon .noidung{
+    font-size: 15px;
+    width: 220px;
+    line-height: 30px;
+    font-family: 'Open Sans';
+    padding-top: 20PX;
+    text-align: justify;
+}
+footer{
+    clear: both;
+    padding-top: 50px;
+}
+.footer-all{
+    background-color: #f1f1f1;
+}
+.footer{
+    margin: 0px 100px;
+    display: flex;
+    padding: 70px 0px;
+    clear: both;
+}
+.footer-left .text-left{
+    width: 450px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family:'Open Sans';
+}
+.right{
+    padding-bottom: 20px;
+}
+.right .tieude{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.right .tieude i{
+    color: #359c3a;
+    padding-right: 10px;
+}

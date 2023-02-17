@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Sans", sans-serif;
+}
+.header{
+    background-color: #229928;
+}
+.container{
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.container img{
+    width: 250px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 70px;
+}
+.main-menu{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+.main-menu li{
+    list-style: none;
+    padding: 30px 20px;
+}
+.main-menu li:hover{
+    text-decoration: underline 5px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #229928;
+    margin-top: 35px;
+    border: 1px solid rgba(255,255,255,.2);
+    display: none;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu li{
+    padding: 25px 20px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.main-menu ul.sub-menu li:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #26812b;
+}
+.main-menu ul.sub-menu li a{
+    font-size: 15px;
+}
+.slide{
+    background-image: url(../image/chuongtrinhdaotao1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 200px;
+}
+.slide h1{
+    text-align: center;
+    color: white;
+    padding: 80px 0px;
+    font-size: 50px;
+}
+article{
+    background-color: rgba(56,142,60,0.2);
+    width: 100%;
+    padding-top: 20px;
+}
+.content .tieude{
+    background-color: #229928;
+    padding: 10px 20px;
+    width: 110px;
+    font-weight: bold;
+    border-bottom: 1px solid #229928;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    border-bottom: 5px solid gray;
+}
+.content .tieude a{
+    text-decoration: none;
+    color: white;
+}
+.noidung{
+    display: flex;
+    margin-left: 130px;
+}
+.noidung img:hover{
+    transition: all 1s ease;
+    transform:scale(1.05);
+}
+.noidung a{
+    text-decoration: none;
+}
+.noidung-left{
+    margin-right: 50px;
+}
+.noidung-left p{
+    width: 550px;
+    line-height: 30px;
+    text-align: justify;
+}
+.noidung-small{
+    padding-right: 50px;
+    float: left;
+    padding-bottom: 40px;
+}
+.noidung-small img{
+    width: 300px;
+    height: 180px;
+}
+.noidung-small h3{
+    width: 300px;
+}
+.noidung h3 a{
+    color: black;
+    font-weight: bold;
+}
+.noidung h3 a:hover{
+    color: #229928;
+}
+.gmat-fschool{
+    margin-top: 50px;
+    margin: 30px 210px;
+}
+.gmat-fschool .tieude{
+    background-color: #229928;
+    padding: 10px 20px;
+    width: 200px;
+    font-weight: bold;
+    border-bottom: 1px solid #229928;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    border-bottom: 5px solid gray;
+}
+.gmat-fschool .tieude a{
+    text-decoration: none;
+    color: white;
+}
+.gmat-fschool .noidung-all .noidung{
+    float: left;
+    padding-bottom: 30px;
+}
+.gmat-fschool .noidung-all .noidung img{
+    width: 200px;
+}
+.gmat-fschool .noidung-all .noidung h3{
+    padding: 50px 20px;
+    width: 600px;
+    font-size: 20px;
+    background-color: rgba(56,142,60,0.2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bucthuchieu{
+    clear: both;
+    padding-top: 50px;
+    margin: 10px 200px;
+
+}
+.bucthuchieu .tieude{
+    background-color: #229928;
+    padding: 10px 20px;
+    width: 200px;
+    font-weight: bold;
+    border-bottom: 5px solid gray;
+    margin-bottom: 20px;
+}
+.bucthuchieu .tieude a{
+    text-decoration: none;
+    color: white;
+}
+.bucthuchieu .bucthuchieu-small img{
+    width: 350px;
+}
+.bucthuchieu .bucthuchieu-small img:hover{
+    transition: all 1s ease;
+    transform:scale(1.05);
+}
+.bucthuchieu .bucthuchieu-small{
+    float: left;
+    padding-right: 20px;
+}
+.bucthuchieu .bucthuchieu-small .gioithieu{
+    font-weight: bold;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.bucthuchieu .bucthuchieu-small .date{
+    font-size: 10px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+.form{
+    background-image: url(../image/slide6trangchu.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    padding: 50px 250px;
+    clear: both;
+}
+.form-1 h1{
+    width: 400px;
+    font-size: 30px; 
+    color: white;
+    margin-top: 100px;
+    padding-right: 100px;
+    line-height: 50px;
+}
+.form-2{
+    background: rgba(56,142,60,.8);
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 750px;
+}
+.form-2 h2{
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.form-2 input{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+}
+.block1, .block2, .block3, .block4,.block5, .block6{
+    padding-bottom: 50px;
+}
+.block1 input{
+    width: 500px;
+    height: 40px;
+}
+.block2 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block3 input{
+    width: 240px;
+    height: 40px;
+    padding-right: 8px;
+}
+.block4 label{
+    color: white;
+}
+.block5 textarea{
+    border-radius: 7px;
+    width: 500px;
+    height: 100px;
+}
+.block6 input{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: #229928;
+}
+.footer-all{
+    margin: 20px 100px;
+    display: flex;
+    padding: 70px 0px;
+}
+.footer-left .text-left{
+    width: 450px;
+    font-size: 14px;
+    line-height: 19px;
+    font-family:'Open Sans';
+}
+.right{
+    padding-bottom: 20px;
+}
+.right .tieude{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.right .tieude i{
+    color: #359c3a;
+    padding-right: 10px;
+}
+
+
